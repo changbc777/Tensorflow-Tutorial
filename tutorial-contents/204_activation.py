@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # fake data
-x = np.linspace(-5, 5, 200)     # x data, shape=(100, 1)
+x = np.linspace(-5, 5, 200)     # x data, shape=(200, 1)
 
 # following are popular activation functions
 y_relu = tf.nn.relu(x)
